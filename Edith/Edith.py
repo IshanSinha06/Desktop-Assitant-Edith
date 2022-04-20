@@ -6,7 +6,7 @@ import webbrowser
 import os
 
 
-engine=pyttsx3.init('sapi5')  #ye ek inbuilt voice dega
+engine=pyttsx3.init('sapi5')  #this will give an inbuilt voice.
 voice=engine.getProperty('voices') #This method is used to get the details with the help of this function.
 engine.setProperty('voice', voice[1].id) #This method sets different properties of the model.
 
